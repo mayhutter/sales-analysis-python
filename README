@@ -1,42 +1,37 @@
-```markdown
+markdown
 # Sales Data Analysis - Superstore Dataset
 
-**Progetto Junior Data Analyst** | Python EDA | Milano, IT 2026
+Progetto Junior Data Analyst | Python EDA | Milano, IT 2026
 
-## 📊 Obiettivo
+## Obiettivo
 Analisi esplorativa completa dataset Superstore (10k ordini retail USA) per identificare trend vendite, profitti e opportunità business.
 
-## 📈 Dataset
-- **Righe**: 9.994 ordini (2014-2017)
-- **Colonne**: 21 incluse Sales, Profit, Category (Furniture/Office Supplies/Technology), Region (West/Central/East/South), Order Date
-- **Caratteristiche**: dataset pulito (0 missing values)
+## Dataset
+- Righe: 9.994 ordini (2014-2017)
+- Colonne: 21 incluse Sales, Profit, Category (Furniture/Office Supplies/Technology), Region (West/Central/East/South), Order Date
+- Caratteristiche: dataset pulito (0 missing values)
 
-## 🛠️ Stack Tecnico
-```
+## Stack Tecnico
 Python 3 | Pandas | Matplotlib | Seaborn
 Jupyter Notebook | VS Code
-```
 
-## 📋 Analisi Eseguita
+## Analisi Eseguita
 
 ### 1. Data Loading & Exploration
-```
 - Caricamento CSV (encoding latin1, nrows=5000 test)
 - Shape: (5000, 21) | No missing values
 - Stats: Sales $230±600, Profit $28±234
-```
 
 ### 2. Visualizzazioni Principali
-```
-✅ Ordini per Categoria: Office Supplies > Furniture > Technology
-✅ Vendite Totali: Technology > Furniture > Office Supplies  
-✅ Vendite per Regione: West > East > Central > South
-✅ Profitto Medio: Technology/Office > Furniture (perdite)
-```
+Ordini per Categoria: Office Supplies > Furniture > Technology
+Vendite Totali: Technology > Furniture > Office Supplies  
+Vendite per Regione: West > East > Central > South
+Profitto Medio: Technology/Office > Furniture (perdite)
 
-## 📊 Risultati Chiave
 
-| **Metrica** | **Valore** |
+## Risultati Chiave
+
+| Metrica | Valore |
 |-------------|------------|
 | Sales Medio | $230 |
 | Profit Medio | $28 |
@@ -44,17 +39,15 @@ Jupyter Notebook | VS Code
 | Top Regione | West (40%+) |
 | Categoria Perdite | Furniture |
 
-## 🔍 Insight Business
-```
-1. **FOCUS TECHNOLOGY**: categoria più redditizia, investire marketing
-2. **WEST PRIORITY**: 40%+ revenue, espandere operations  
-3. **FURNITURE PROBLEM**: margini negativi sistematici → rivedere pricing/costi
-4. **OFFICE STABILITY**: alto volume, bassa variabilità profitto
-5. **NEXT STEPS**: analisi stagionalità + churn clienti perdenti
-```
+## Insight Business
+1. FOCUS TECHNOLOGY: categoria più redditizia, investire marketing
+2. WEST PRIORITY: 40%+ revenue, espandere operations  
+3. FURNITURE PROBLEM: margini negativi sistematici → rivedere pricing/costi
+4. OFFICE STABILITY: alto volume, bassa variabilità profitto
+5. NEXT STEPS: analisi stagionalità + churn clienti perdenti
 
-## 📁 Struttura Repository
-```
+## Struttura Repository
+
 sales-analysis-python/
 ├── data/
 │   └── Sample-Superstore.csv
@@ -62,28 +55,14 @@ sales-analysis-python/
 │   └── 01_sales_eda.ipynb
 ├── README.md ← QUESTO FILE
 └── requirements.txt
-```
 
-## 🚀 Setup Riproducibile
-```bash
+## Setup Riproducibile
+bash
 pip install pandas matplotlib seaborn jupyter
 jupyter notebook notebooks/01_sales_eda.ipynb
-```
 
-## 📈 Screenshot Analisi
-*(Aggiungi qui i tuoi screenshot grafici)*
-
-## 👤 Autore
-**Mayra Hutter**  
+Mayra Hutter  
 Junior Data Analyst | Milano, IT  
-📧 mayhutter16@gmail.com  
-💻 [GitHub/mayhutter](https://github.com/mayhutter) | [LinkedIn]
+mayhutter16@gmail.com  
+https://www.linkedin.com/in/mayhutter/
 
----
-
-**Portfolio Ready** | **ATS Keywords**: EDA, Data Cleaning, Pandas, Seaborn, Business Intelligence, Profit Analysis
-```
-
-**Salvalo**: tasto destro in Explorer VS Code → `New File` → `README.md` → copia tutto → `Ctrl+S`.
-
-**Progetto 100% pronto CV/GitHub!** 🚀
